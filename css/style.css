@@ -1,0 +1,81 @@
+body {
+	padding: 0 auto;
+	margin: 0 auto;
+	background:#f8f8f9;
+	color: #303134;
+	font-weight: normal;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+*{box-sizing: border-box;}
+
+a{
+	color:#5e86ff;
+	text-decoration: none;
+}
+
+.flex, .flex_between, .flex_end, .flex_center {
+	display: flex;
+	align-items:center;
+}
+
+.flex_between{
+	justify-content:space-between;
+}
+.flex_end{
+	justify-content:flex-end;
+}
+.flex_start{
+	display: flex;
+	align-items: flex-start;
+}
+
+.flex_center{
+	justify-content: center;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+
+
+
+
+
+.font-red{color:#303134;}
+.font-minnor{color: #7f8189;}
+.font-main{color: #303134;}
+.color-yl{color: #ffcc33;}
+
+
+
+.icon_live{
+	width: 100%;
+	height: 100%;
+	background: url(‘.../images/icon/circle_funtion/live.svg’) no-repeat;
+	background-size:cover;
+}
+
+.icon_vr{
+	background: url(‘.../images/icon/circle_funtion/vr.svg’) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon_mackup{
+	background: url(.../images/icon/circle_funtion/mackup.svg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon_AI{
+	background: url(.../images/icon/circle_funtion/ai.svg) no-repeat;
+	background-size: 100% 100%;
+}
